@@ -1,0 +1,27 @@
+
+.logo-header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header .menu-header .wrap-menu{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.logo-header .menu-header .wrap-menu .nav-text{
+    margin: 0 0.5rem;
+}
+
+.logo-header .menu-header .wrap-menu .nav-text a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo-header .menu-header .wrap-menu .nav-text p{
+    margin: 0;
+}

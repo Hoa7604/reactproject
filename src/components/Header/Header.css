@@ -1,0 +1,45 @@
+.stHeader {
+    padding: 10px 0;
+}
+
+.contacts{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #ffffff;
+    border-bottom: 1px solid #39353e;
+    padding: 8px;
+}
+
+.in4-ct{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.in4-ct .phone-ct{
+    margin: 0 10px 0 0;
+}
+
+.contacts .social-media .wrap-social-medial{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.contacts .social-media .wrap-social-medial li{
+    margin: 0 10px;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+}
+
+.contacts .social-media .wrap-social-medial li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacts .social-media .wrap-social-medial li:hover a{
+    color: #c6b069;
+}
