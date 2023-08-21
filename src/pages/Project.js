@@ -9,7 +9,9 @@ import GalleryArea from './common/GalleryArea'
 function Project() {
   return (
     <div className='serviceStyle'>
+
       <BannerArea
+        checkTitleHome={false}
         titlePages='Projects'
         linkRoot='Home'
         arrowBanner={<AiIcons.AiOutlineArrowRight/>}

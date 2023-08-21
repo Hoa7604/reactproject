@@ -9,6 +9,7 @@ function Contact() {
   return (
     <div className='serviceStyle'>
       <BannerArea
+        checkTitleHome = {false}
         titlePages='Contact Us'
         linkRoot='Home'
         arrowBanner={<AiIcons.AiOutlineArrowRight/>}

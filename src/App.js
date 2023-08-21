@@ -35,8 +35,6 @@ function App(props) {
                 <Route path='/project' Component={Project}/>
                 <Route path='/contact' Component={Contact}/>
           </Routes>
-        {/* <Main userName="Mack" num={5}/> */}
-        {/* <Sidebar/> */}
 
     </div>  
     

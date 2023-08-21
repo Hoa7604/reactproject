@@ -14,8 +14,11 @@ function Home() {
   return (
     <div className='homeStyle'>
         <BannerArea
-          titlePages = 'Precise concept design for stylish living' 
-          detailBanner = 'If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each. You may be saying to yourself.'
+          checkTitleHome = {true}
+          titlePages = 'Precise concept design ' 
+          breakLineTitlePages = 'for stylish living'
+          detailBanner = 'If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see '
+          breakLineDetailBanner = 'some for as low as $.17 each. You may be saying to yourself.'
           buttonBanner = 'get start'
         />
         <ServiceArea/>

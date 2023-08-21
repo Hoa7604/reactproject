@@ -11,6 +11,7 @@ function Service() {
   return (
     <div className='serviceStyle'>
       <BannerArea
+        checkTitleHome={false}
         titlePages = 'Services'
         linkRoot = 'Home'
         arrowBanner = {<AiIcons.AiOutlineArrowRight/>}

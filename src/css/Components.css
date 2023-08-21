@@ -85,12 +85,20 @@ a:hover{
   }
 
  .banner-area .text-banner-title{
-    font-size: 48px;
-    font-weight: 700;
     margin: 20px 0px;
   }
+
+  .style-title{
+    font-size: 48px;
+    font-weight: 700;
+  }
+
  .banner-area .text-banner-detail{
     margin-bottom: 1rem;
+    
+  }
+
+  .style-detail{
     line-height: 1.5;
   }
 

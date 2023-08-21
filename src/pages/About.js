@@ -13,6 +13,7 @@ function About() {
   return (
     <div className='aboutStyle'>
         <BannerArea
+          checkTitleHome={false}
           titlePages='About Us'
           linkRoot='Home'
           arrowBanner= {<AiIcons.AiOutlineArrowRight/>}
